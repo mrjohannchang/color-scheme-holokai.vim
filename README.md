@@ -7,7 +7,7 @@ Holokai is inspired by [molokai](http://github.com/tomasr/molokai)
 ![screenshot](https://lh5.googleusercontent.com/-QVXzQ9Eh83o/UTRnXOKY0uI/AAAAAAAAAJE/qWwJjdYw6AQ/s612/python_in_transolution.png)
 
 ## Installation
-Just copy the file to your .vim/colors folder.
+Just copy the files to your .vim folder.
 
 ## Note
 To use this color scheme under x-terminal, you should enable 256 color support in both x-terminal and vim and also screen/tmux if you have one.
