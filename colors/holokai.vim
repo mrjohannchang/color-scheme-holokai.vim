@@ -66,10 +66,10 @@ hi MoreMsg          guifg=#d7d700
 hi Operator         guifg=#d7d700
 
 " complete menu
-hi Pmenu            guifg=#5fd7ff
-hi PmenuSel                         guibg=#ffd7d7
+hi Pmenu            guifg=#bcbcbc   guibg=#444444
+hi PmenuSel         guifg=#bcbcbc   guibg=#000087
 hi PmenuSbar                        guibg=#080808
-hi PmenuThumb       guifg=#5fd7ff
+hi PmenuThumb       guifg=#bcbcbc
 
 hi PreCondit        guifg=#d7d700                   gui=bold
 hi PreProc          guifg=#5fd7ff
@@ -103,7 +103,7 @@ hi Underlined       guifg=#808080                   gui=underline
 
 hi VertSplit        guifg=#808080   guibg=#080808   gui=bold
 hi VisualNOS                        guibg=#444444
-hi Visual                           guibg=#00005f
+hi Visual                           guibg=#000087
 hi WarningMsg       guifg=#ffffff   guibg=#444444   gui=bold
 hi WildMenu         guifg=#5fd7ff
 
