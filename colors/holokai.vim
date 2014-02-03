@@ -151,10 +151,10 @@ if &t_Co > 255
     hi Operator         ctermfg=184
 
     " complete menu
-    hi Pmenu            ctermfg=81
-    hi PmenuSel                     ctermbg=244
+    hi Pmenu            ctermfg=250 ctermbg=238
+    hi PmenuSel         ctermfg=250 ctermbg=18
     hi PmenuSbar                    ctermbg=232
-    hi PmenuThumb       ctermfg=81
+    hi PmenuThumb       ctermfg=250
 
     hi PreCondit        ctermfg=184             cterm=bold
     hi PreProc          ctermfg=81
