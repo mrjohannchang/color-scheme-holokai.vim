@@ -39,14 +39,14 @@ hi Cursor           guifg=#000000   guibg=#dadada
 hi Debug            guifg=#ffd7ff                   gui=bold
 hi Define           guifg=#5fd7ff
 hi Delimiter        guifg=#626262
-hi DiffAdd                          guibg=#005f87
+hi DiffAdd                          guibg=#005f5f
 hi DiffChange       guifg=#d7afaf   guibg=#3a3a3a
 hi DiffDelete       guifg=#d70087   guibg=#5f005f
 hi DiffText                         guibg=#5f0000   gui=italic,bold
 
 hi Directory        guifg=#87d700                   gui=bold
-hi Error            guifg=#ffafff   guibg=#87005f
-hi ErrorMsg         guifg=#ff00af                   gui=bold
+hi Error            guifg=#dfdfff   guibg=#87005f
+hi ErrorMsg         guifg=#ffafff                   gui=bold
 hi Exception        guifg=#87d700                   gui=bold
 hi Float            guifg=#af87ff
 hi FoldColumn       guifg=#5f87af   guibg=#000000
@@ -60,14 +60,14 @@ hi Keyword          guifg=#d7d700                   gui=bold
 hi Label            guifg=#d7d700                   gui=none
 hi Macro            guifg=#5fd7ff                   gui=italic
 
-hi MatchParen       guifg=#000000   guibg=#ff8700   gui=bold
+hi MatchParen       guifg=#ff8700   guibg=#000000   gui=bold
 hi ModeMsg          guifg=#d7d700
 hi MoreMsg          guifg=#d7d700
 hi Operator         guifg=#d7d700
 
 " complete menu
 hi Pmenu            guifg=#bcbcbc   guibg=#444444
-hi PmenuSel         guifg=#bcbcbc   guibg=#000087
+hi PmenuSel         guifg=#bcbcbc   guibg=#a75f00
 hi PmenuSbar                        guibg=#080808
 hi PmenuThumb       guifg=#bcbcbc
 
@@ -103,7 +103,7 @@ hi Underlined       guifg=#808080                   gui=underline
 
 hi VertSplit        guifg=#808080   guibg=#080808   gui=bold
 hi VisualNOS                        guibg=#444444
-hi Visual                           guibg=#000087
+hi Visual                           guibg=#a75f00
 hi WarningMsg       guifg=#ffffff   guibg=#444444   gui=bold
 hi WildMenu         guifg=#5fd7ff
 
@@ -124,14 +124,14 @@ if &t_Co > 255
     hi Define           ctermfg=81
     hi Delimiter        ctermfg=241
 
-    hi DiffAdd                      ctermbg=24
+    hi DiffAdd                      ctermbg=23
     hi DiffChange       ctermfg=181 ctermbg=237
     hi DiffDelete       ctermfg=162 ctermbg=53
     hi DiffText                     ctermbg=52  cterm=bold
 
     hi Directory        ctermfg=112             cterm=bold
-    hi Error            ctermfg=219 ctermbg=89
-    hi ErrorMsg         ctermfg=199             cterm=bold
+    hi Error            ctermfg=189 ctermbg=89
+    hi ErrorMsg         ctermfg=219             cterm=bold
     hi Exception        ctermfg=112             cterm=bold
     hi Float            ctermfg=141
     hi FoldColumn       ctermfg=67  ctermbg=16
@@ -145,14 +145,14 @@ if &t_Co > 255
     hi Label            ctermfg=184             cterm=none
     hi Macro            ctermfg=81
 
-    hi MatchParen       ctermfg=16  ctermbg=208 cterm=bold
+    hi MatchParen       ctermfg=208 ctermbg=16  cterm=bold
     hi ModeMsg          ctermfg=184
     hi MoreMsg          ctermfg=184
     hi Operator         ctermfg=184
 
     " complete menu
     hi Pmenu            ctermfg=250 ctermbg=238
-    hi PmenuSel         ctermfg=250 ctermbg=18
+    hi PmenuSel         ctermfg=250 ctermbg=94
     hi PmenuSbar                    ctermbg=232
     hi PmenuThumb       ctermfg=250
 
@@ -183,7 +183,7 @@ if &t_Co > 255
 
     hi VertSplit        ctermfg=244 ctermbg=232 cterm=bold
     hi VisualNOS                    ctermbg=238
-    hi Visual                       ctermbg=18
+    hi Visual                       ctermbg=94
     hi WarningMsg       ctermfg=231 ctermbg=238 cterm=bold
     hi WildMenu         ctermfg=81
 
