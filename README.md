@@ -1,4 +1,4 @@
-# Color Scheme Holokai of Vim
+# Color Scheme Holokai for Vim
 
 Holokai is inspired by [molokai](http://github.com/tomasr/molokai)
 
